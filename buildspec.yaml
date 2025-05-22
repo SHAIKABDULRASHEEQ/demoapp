@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing packages...
+  build:
+    commands:
+      - echo Building the project...
+      - echo Build complete on `date`
+artifacts:
+  files:
+    - index.html
